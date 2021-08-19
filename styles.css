@@ -1,0 +1,67 @@
+body {
+  padding-top: 10px;
+  background-color: rgb(15, 9, 9);
+  color: white;
+  font-family: "Nunito", sans-serif;
+  /* max-width: 1000px; */
+  align-items: center;
+  width: 54%;
+
+  /* height: 25%; */
+  margin: 0 auto;
+}
+
+#numberCall {
+  text-align: center;
+}
+
+.cell {
+  background-color: #0f0f0f;
+  display: inline-block;
+  width: 20px;
+  /* height: 100%; */
+  /* min-height: 64px; */
+  text-align: center;
+  /* font-size: x-large; */
+  font-weight: bold;
+  border-style: solid;
+  border-color: #2a2a2a;
+  border-radius: 8px;
+  margin: 3px;
+  padding: 13px;
+}
+
+.cell:hover {
+  border-color: aqua;
+}
+
+.highlight {
+  border-color: red;
+}
+/* 
+#title {
+  padding-top: 0%;
+  color: blueviolet;
+  text-align: center;
+  margin-top: 0%;
+  /* padding: 20px; */
+/* font-size: larger; */
+/* } */
+*/ button {
+  text-align: center;
+  align-self: center;
+}
+button {
+  padding-top: 0%;
+  color: blueviolet;
+  text-align: center;
+  align-content: center;
+  /* margin-top: 0%; */
+  font-size: 20px;
+  border-radius: 9px;
+
+  /* text-decoration: none;
+  border: none;
+  border-radius: 9px;
+  font-size: 20px; */
+}
